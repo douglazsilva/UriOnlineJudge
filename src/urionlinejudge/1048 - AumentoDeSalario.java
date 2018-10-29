@@ -2,16 +2,16 @@ package urionlinejudge;
 
 import java.util.Scanner;
 
-public class AumentoDeSalario2 {
+public class AumentoDeSalario {
 
     public static void main(String[] args) {
         
-        Scanner n = new Scanner(System.in);
+		Scanner n = new Scanner(System.in);
         
-        double salario = n.nextDouble();
-        double reajuste, novoSalario;
-        char p = '%';
-                   
+		double salario = n.nextDouble();
+		double reajuste, novoSalario;
+		char p = '%';
+                 
         if(salario >=0 && salario <= 400){
             novoSalario = salario * 1.15;
             reajuste = novoSalario - salario;
@@ -47,6 +47,5 @@ public class AumentoDeSalario2 {
             System.out.printf("Reajuste ganho: %.2f\n", reajuste);
             System.out.printf("Em percentual: 4 %c\n", p);
         }
-    }
-    
+	}    
 }

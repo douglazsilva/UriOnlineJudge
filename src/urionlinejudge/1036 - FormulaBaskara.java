@@ -1,11 +1,10 @@
-package urionlinejudge;
-
+import java.io.IOException;
 import java.util.Scanner;
 
-public class FormulaDeBaskara {
-
-    public static void main(String[] args) {
-        
+public class FormulaBaskara {
+ 
+    public static void main(String[] args) throws IOException {
+ 
         Scanner n = new Scanner(System.in);
         
         double a = n.nextDouble();
@@ -24,7 +23,7 @@ public class FormulaDeBaskara {
             System.out.printf("R1 = %.5f\n", r1);
             System.out.printf("R2 = %.5f\n", r2);
         }
-        
+ 
     }
-    
+ 
 }

@@ -2,7 +2,7 @@ package urionlinejudge;
 
 import java.util.Scanner;
 
-public class TempoDeJogoComMinutos4 {
+public class TempoDeJogoComMinutos {
 
     public static void main(String[] args) {
         
@@ -30,7 +30,6 @@ public class TempoDeJogoComMinutos4 {
             h = t / 60;
             m = t % 60;
             System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", h , m);
-        }
-    }
-    
+        }        
+    }    
 }

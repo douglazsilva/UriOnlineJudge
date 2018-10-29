@@ -2,7 +2,7 @@ package urionlinejudge;
 
 import java.util.Scanner;
 
-public class Intervalos {
+public class Intervalo {
 
     public static void main(String[] args) {
         
@@ -21,6 +21,5 @@ public class Intervalos {
         }else{
             System.out.printf("Fora de intervalo\n");
         }       
-    }
-    
+    }    
 }
